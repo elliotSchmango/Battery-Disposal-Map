@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Disposal Map</title>
+    <link rel="stylesheet" href = "style.css">
+
+</head>
+<body>
+
+    <h1>BATTERIES!</h1>
+
+    <div id="map"></div>
+
+    <div class="popup" id="popup">
+        <p>What type of batteries would you like to dispose?</p>
+        <br>
+        <input type="checkbox"><label>Single-Use</label><br>
+        <input type="checkbox"><label>Rechargeable</label><br>
+        <input type="checkbox"><label>E-bike</label><br>
+        <input type="checkbox"><label>Cell Phone</label><br>
+        <input type="checkbox"><label>Automotive</label><br>
+        <button type="button" onclick="closePopup()">Done</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9BDcRJtT7CpKtrHdz0zF66SGWOv95TcU&map_ids=d266759cb0ff3fdb&callback=initMap"></script>
+
+    
+
+</body>
+</html>
